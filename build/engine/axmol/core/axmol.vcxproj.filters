@@ -1,0 +1,1913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\axmol.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\axmol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionCatmullRom.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionEase.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionGrid3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionInstant.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionInterval.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionManager.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionPageTurn3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionTiledGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionTween.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAnimationCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAnimation.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAtlasNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCCameraBackgroundBrush.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCClippingNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCClippingRectangleNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCComponentContainer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCComponent.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCDrawNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFastTMXLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFastTMXTiledMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontAtlasCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontCharMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFont.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontFNT.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontFreeType.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabelAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabel.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabelTextFormatter.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLight.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMenu.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMenuItem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMotionStreak.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCNodeGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParallaxNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleExamples.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleSystem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleSystemQuad.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCProtectedNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCRenderTexture.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCScene.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteFrameCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteFrame.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAutoPolygon.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTextFieldTTF.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTileMapAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTMXObjectGroup.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTMXXMLParser.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransition.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransitionPageTurn.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransitionProgress.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTweenFunction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCPlistSpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAABB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAnimate3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAnimation3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAttachNode.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBillBoard.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundle3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundle3DData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundleReader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCFrustum.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMesh.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshSkin.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshVertexIndexData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMotionStreak3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCOBB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCObjLoader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCPlane.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCRay.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCSkeleton3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCSkybox.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshRenderer.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshMaterial.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCTerrain.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCVertexAttribBinding.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CC3DProgramInfo.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCStdC-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCFileUtils-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCCommon-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCApplication-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCDevice-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\inet_pton_mingw.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\desktop\CCGLViewImpl-desktop.cpp">
+      <Filter>Source Files\platform\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCSAXParser.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCGLView.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCFileUtils.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCImage.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCFileStream.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCPosixFileStream.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsBody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsContact.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsJoint.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsShape.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsWorld.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3D.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DComponent.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DConstraint.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DDebugDrawer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DObject.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DShape.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DWorld.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysicsMeshRenderer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCAffineTransform.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCVertex.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Mat3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Mat4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\MathUtil.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\TransformUtils.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Rect.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMesh.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshAgent.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshDebugDraw.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshObstacle.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshUtils.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCCallbackCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCCustomCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCGroupCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCMaterial.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCMeshCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCPass.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCQuadCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderState.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTechnique.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTexture2D.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureAtlas.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureCache.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureCube.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTrianglesCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\ccShaders.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCColorizer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramManager.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramStateRegistry.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\CommandBuffer.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\DepthStencilState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Device.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ShaderModule.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Texture.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\PixelFormatUtils.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Types.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\VertexLayout.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Program.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ShaderCache.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\RenderPassDescriptor.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\BufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\CommandBufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DepthStencilStateGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DeviceGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\ProgramGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\RenderPipelineGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\ShaderModuleGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\TextureGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\UtilsGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DeviceInfoGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\RenderTargetGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCAsyncTaskPool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCAutoreleasePool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCConfiguration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCConsole.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCData.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCNinePatchImageParser.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCDirector.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEvent.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListener.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCIMEDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCNS.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCProfiling.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCProperties.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCRef.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCScheduler.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCScriptSupport.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCUserDefault.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCValue.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ObjectFactory.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCStencilStateManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\TGAlib.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ZipUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\atitc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\base64.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccCArray.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccFPSImages.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccRandom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccTypes.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccUTF8.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\SimpleTimer.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\etc1.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\etc2.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\pvr.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\s3tc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\astc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCController-linux-win32.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioEngine.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderManager.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoder.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderOgg.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioPlayer.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioCache.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioEngineImpl.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderMp3.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderWav.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIEditBox\UIEditBoxImpl-win32.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWebView\UIWebViewImpl-win32.cpp">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWebView\UIWebView.cpp">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\MFUtils.cpp">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\MFMediaPlayer.cpp">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\UIVideoPlayer-win.cpp">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\CocosGUI.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIAbstractCheckButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UICheckBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRadioButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\LayoutHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIHBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIImageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayout.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutManager.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutParameter.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIListView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILoadingBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIPageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIPageViewIndicator.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRelativeBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRichText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScale9Sprite.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScrollView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScrollViewBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UISlider.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextAtlas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextBMFont.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextField.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIEditBox\UIEditBox.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutComponent.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIEditBox\UIEditBoxImpl-common.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITabControl.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextFieldEx.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpClient.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\CCDownloader.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\CCDownloader-curl.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpCookie.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\Uri.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\axmol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionPageTurn3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionTween.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteFrameCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleExamples.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCComponentContainer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTweenFunction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLight.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAutoPolygon.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAtlasNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCClippingNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCRenderTexture.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionInterval.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTMXXMLParser.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionInstant.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabel.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCComponent.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabelAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionCatmullRom.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCClippingRectangleNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionEase.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCScene.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCProtectedNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTextFieldTTF.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAnimationCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFastTMXLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontAtlasCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFont.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleSystemQuad.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionGrid3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCCameraBackgroundBrush.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFastTMXTiledMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCLabelTextFormatter.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMenuItem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontFNT.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransitionProgress.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteFrame.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTMXObjectGroup.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAnimation.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCNodeGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontFreeType.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCAction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransition.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTransitionPageTurn.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCFontCharMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParticleSystem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCTileMapAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionTiledGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCActionManager.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMotionStreak.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCMenu.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCDrawNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCParallaxNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCSpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\2d\CCPlistSpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBillBoard.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCFrustum.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshVertexIndexData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCPlane.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCRay.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMesh.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAnimate3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCTerrain.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAnimationCurve.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshRenderer.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshMaterial.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCOBB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAnimation3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMotionStreak3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCSkybox.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCMeshSkin.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\cocos3d.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAABB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundle3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCObjLoader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundle3DData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCSkeleton3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCBundleReader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCAttachNode.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CCVertexAttribBinding.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\3d\CC3DProgramInfo.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\compat\stdint.h">
+      <Filter>Source Files\platform\win32\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCApplication-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\inet_pton_mingw.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCGL-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCFileUtils-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCStdC-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\CCPlatformDefine-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\desktop\CCGLViewImpl-desktop.h">
+      <Filter>Source Files\platform\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCApplication.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCApplicationProtocol.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCCommon.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCDevice.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCFileUtils.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCGL.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCGLView.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCImage.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCPlatformConfig.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCPlatformDefine.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCPlatformMacros.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCSAXParser.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCStdC.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCFileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\platform\CCPosixFileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsContact.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsWorld.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsBody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\cpCompat62.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsShape.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsHelper.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics\CCPhysicsJoint.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DConstraint.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DShape.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3D.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DWorld.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysicsMeshRenderer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DObject.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DComponent.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CCPhysics3DDebugDrawer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Mat3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Mat4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Quaternion.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\TransformUtils.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCAffineTransform.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCVertex.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Vec3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCMathBase.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\MathUtil.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\CCMath.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\Rect.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\math\FastRNG.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshAgent.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshObstacle.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshUtils.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMeshDebugDraw.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CCNavMesh.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCCallbackCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCCustomCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCGroupCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCMaterial.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCMeshCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCPass.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCPipelineDescriptor.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCQuadCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderCommandPool.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderState.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCRenderer.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTechnique.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTexture2D.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureAtlas.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureCache.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTextureCube.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CCTrianglesCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\ccShaders.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramManager.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramStateRegistry.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Backend.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Buffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\CommandBuffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\DepthStencilState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Device.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Program.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Macros.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\RenderPassDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\RenderPipeline.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ShaderModule.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Texture.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\PixelFormatUtils.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Types.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\Enums.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\VertexLayout.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ProgramState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\ShaderCache.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\DeviceInfo.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\BufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\CommandBufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DepthStencilStateGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DeviceGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\ProgramGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\RenderPipelineGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\ShaderModuleGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\TextureGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\UtilsGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\DeviceInfoGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\renderer\backend\opengl\RenderTargetGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\astc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\pvr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\format.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCValue.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\atitc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccMacros.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\base64.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\s3tc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\etc1.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\etc2.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCGameController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCConsole.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccConstants.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEvent.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccTypes.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccEnums.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCAsyncTaskPool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccRandom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCRef.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCProfiling.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ObjectFactory.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCProperties.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCVector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCNinePatchImageParser.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCRefPtr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCDirector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCUserDefault.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccConfig.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccFPSImages.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ZipUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCMap.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccUTF8.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCScriptSupport.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCConfiguration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCProtocols.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\TGAlib.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCIMEDelegate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCNS.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCAutoreleasePool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCStencilStateManager.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListenerAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\firePngData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\ccCArray.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventListener.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCScheduler.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCEventType.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\base\CCIMEDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\alconfig.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioEngine.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioMacros.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderManager.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoder.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderOgg.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioPlayer.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioCache.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioEngineImpl.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderMp3.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\audio\AudioDecoderWav.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIEditBox\UIEditBoxImpl-win32.h">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWebView\UIWebViewImpl-win32.h">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWebView\UIWebView.h">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\MFUtils.h">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\MFMediaPlayer.h">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVideoPlayer\UIVideoPlayer.h">
+      <Filter>Source Files\ui\UIVideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\CocosGUI.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\GUIDefine.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\GUIExport.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIAbstractCheckButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UICheckBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\LayoutHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIHBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIImageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayout.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutComponent.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutManager.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILayoutParameter.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIListView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UILoadingBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIPageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIPageViewIndicator.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRadioButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRelativeBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIRichText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScale9Sprite.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScrollView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIScrollViewBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UISlider.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITabControl.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextAtlas.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextBMFont.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UITextField.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIVBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\ui\UIWidget.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\CCDownloader-curl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\CCIDownloaderImpl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\CCDownloader.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\Uri.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpClient.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpResponse.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpRequest.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\core\network\HttpCookie.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\axmol.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\axmol.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\axmol.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\axmol.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qff\Desktop\axmol-dev1\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\Qff\Desktop\axmol-dev1\core\axmol.natvis" />
+    <Natvis Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\yasio\yasio.natvis" />
+    <Natvis Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\tsl-robin-map.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{5686F7BC-83A4-3B3B-AA4A-AF931AFCDF34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3BEB4A7-8EAB-32AA-A218-C19CE923DD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{C996CB35-8F43-39AB-BE51-2515F44B4EFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d">
+      <UniqueIdentifier>{8884EE36-22CE-326D-BB1F-CA8D4DB571BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{DEB4F1A6-C396-34C2-BCFE-3C32BE56B85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{658D3697-0409-3FA2-B863-356BB897F305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{8F091A5C-4DA7-3B80-8056-1ACF61FC9FAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\navmesh">
+      <UniqueIdentifier>{712AA625-5404-35BD-9F37-3831867DBB66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{648D9DFA-E5EC-3BD5-B076-F04298D36BE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{890C19A8-7C7B-3C3C-9812-978A85519171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics3d">
+      <UniqueIdentifier>{733D681A-6B3B-38C0-9A77-D9E90C878F78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{9CE26414-50C4-3A54-BEF4-8558646A6849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\desktop">
+      <UniqueIdentifier>{D0391D65-722E-3FA3-A536-F09FEE3F6784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32">
+      <UniqueIdentifier>{8EB07514-3CB5-38B9-B3FE-8D0850AB78EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32\compat">
+      <UniqueIdentifier>{469F0AF7-C21F-3A12-95CD-B0CE6AEFDCE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{10A3A895-4116-3AAA-A91A-D09F2FFA991F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend">
+      <UniqueIdentifier>{8ADD8C16-1F4E-3294-A2F5-F8DDA62CD0C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend\opengl">
+      <UniqueIdentifier>{3E3AB004-72B7-3013-91EB-B1E9CE893F7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{A31F4B80-F77B-3A2D-BE44-BB9FC8EEBECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIEditBox">
+      <UniqueIdentifier>{A1D43E47-B3B9-3833-B6F3-D019D16C65B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIVideoPlayer">
+      <UniqueIdentifier>{74F513BC-2CF9-3687-A8C8-AACD18BEB086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIWebView">
+      <UniqueIdentifier>{FC637440-8F9A-344A-A11F-4C9A0730E73B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

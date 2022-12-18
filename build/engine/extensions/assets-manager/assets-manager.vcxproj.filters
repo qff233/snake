@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\AssetsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\AssetsManagerEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\CCEventAssetsManagerEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\Manifest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\AssetsManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\AssetsManagerEx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\CCEventAssetsManagerEx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\CCEventListenerAssetsManagerEx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\Manifest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qff\Desktop\axmol-dev1\extensions\assets-manager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3BEB4A7-8EAB-32AA-A218-C19CE923DD6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

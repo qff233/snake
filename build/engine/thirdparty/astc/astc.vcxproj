@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF2B4847-58EC-39C2-BA82-29E6973D9D7D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>astc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\astc.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\snake\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">astc.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">astc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\snake\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">astc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">astc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\snake\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">astc.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">astc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\snake\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">astc.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">astc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/thirdparty/astc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/thirdparty/astc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\axmol-dev1\thirdparty\cmake\AXConfigThirdparty.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/thirdparty/astc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/thirdparty/astc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\axmol-dev1\thirdparty\cmake\AXConfigThirdparty.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/thirdparty/astc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/thirdparty/astc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\axmol-dev1\thirdparty\cmake\AXConfigThirdparty.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/thirdparty/astc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/thirdparty/astc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\axmol-dev1\thirdparty\cmake\AXConfigThirdparty.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_averages_and_directions.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_block_sizes.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_color_quantize.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_color_unquantize.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_compress_symbolic.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_compute_variance.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_decompress_symbolic.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_diagnostic_trace.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_entry.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_find_best_partitioning.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_ideal_endpoints_and_weights.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_image.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_integer_sequence.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_mathlib.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_mathlib_softfloat.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_partition_tables.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_percentile_tables.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_pick_best_endpoint_format.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_platform_isa_detection.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_quantization.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_symbolic_physical.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_weight_align.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\astcenc_weight_quant_xfer_tables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\ZERO_CHECK.vcxproj">
+      <Project>{D9DDD8A3-C9A6-3783-BE83-5570208ACD8C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

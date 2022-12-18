@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5927CD97-2E35-3A1A-B653-CC66F9503852}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>snake</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\Qff\Desktop\snake\build\snake.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\snake\build\bin\snake\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">snake.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">snake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Qff/Desktop/snake/Resources</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\snake\build\bin\snake\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">snake.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">snake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Qff/Desktop/snake/Resources</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\snake\build\bin\snake\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">snake.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">snake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Qff/Desktop/snake/Resources</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\snake\build\bin\snake\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">snake.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">snake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Qff/Desktop/snake/Resources</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/jpeg-turbo/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/include" /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_AX_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_AX_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\snake\Classes\;C:\Users\Qff\Desktop\axmol-dev1\core\audio\;C:\Users\Qff\Desktop\axmol-dev1\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\;C:\Users\Qff\Desktop\axmol-dev1\extensions\;C:\Users\Qff\Desktop\axmol-dev1\core\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\;C:\Users\Qff\Desktop\axmol-dev1\core\base\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include\;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio\;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui\;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_AX_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/prebuilt/windows/x64/zlib1.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libcrypto-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Debug/libcrypto-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libssl-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Debug/libssl-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/prebuilt/windows/x64/libcurl.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/snake/build/bin/$(Configuration)/OpenAL32.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\axmol.lib;lib\Debug\cocostudio.lib;lib\Debug\ImGui.lib;lib\Debug\fairygui.lib;lib\Debug\DragonBones.lib;lib\Debug\spine.lib;lib\Debug\physics-nodes.lib;lib\Debug\particle3d.lib;lib\Debug\assets-manager.lib;lib\Debug\GUI.lib;lib\Debug\axmol.lib;lib\Debug\thirdparty.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\Debug\box2d.lib;lib\Debug\chipmunk.lib;lib\Debug\freetype.lib;lib\Debug\png.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\Debug\recast.lib;lib\Debug\bullet.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\prebuilt\windows\x64\jpeg-static.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libcrypto.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libssl.lib;lib\Debug\webp.lib;lib\Debug\pugixml.lib;lib\Debug\xxhash.lib;lib\Debug\lz4.lib;lib\Debug\clipper2.lib;lib\Debug\ConvertUTF.lib;lib\Debug\poly2tri.lib;lib\Debug\astc.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\prebuilt\windows\x64\libcurl_imp.lib;lib\Debug\OpenAL32.lib;lib\Debug\ogg.lib;lib\Debug\glad.lib;lib\Debug\glfw.lib;lib\Debug\unzip.lib;lib\Debug\llhttp.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Qff/Desktop/snake/build/Debug/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Qff/Desktop/snake/build/bin/snake/Debug/snake.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/jpeg-turbo/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/include" /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\snake\Classes\;C:\Users\Qff\Desktop\axmol-dev1\core\audio\;C:\Users\Qff\Desktop\axmol-dev1\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\;C:\Users\Qff\Desktop\axmol-dev1\extensions\;C:\Users\Qff\Desktop\axmol-dev1\core\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\;C:\Users\Qff\Desktop\axmol-dev1\core\base\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include\;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio\;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui\;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/prebuilt/windows/x64/zlib1.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libcrypto-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Release/libcrypto-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libssl-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Release/libssl-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/prebuilt/windows/x64/libcurl.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/snake/build/bin/$(Configuration)/OpenAL32.dll C:/Users/Qff/Desktop/snake/build/bin/snake/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\axmol.lib;lib\Release\cocostudio.lib;lib\Release\ImGui.lib;lib\Release\fairygui.lib;lib\Release\DragonBones.lib;lib\Release\spine.lib;lib\Release\physics-nodes.lib;lib\Release\particle3d.lib;lib\Release\assets-manager.lib;lib\Release\GUI.lib;lib\Release\axmol.lib;lib\Release\thirdparty.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\Release\box2d.lib;lib\Release\chipmunk.lib;lib\Release\freetype.lib;lib\Release\png.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\Release\recast.lib;lib\Release\bullet.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\prebuilt\windows\x64\jpeg-static.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libcrypto.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libssl.lib;lib\Release\webp.lib;lib\Release\pugixml.lib;lib\Release\xxhash.lib;lib\Release\lz4.lib;lib\Release\clipper2.lib;lib\Release\ConvertUTF.lib;lib\Release\poly2tri.lib;lib\Release\astc.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\prebuilt\windows\x64\libcurl_imp.lib;lib\Release\OpenAL32.lib;lib\Release\ogg.lib;lib\Release\glad.lib;lib\Release\glfw.lib;lib\Release\unzip.lib;lib\Release\llhttp.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Qff/Desktop/snake/build/Release/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Qff/Desktop/snake/build/bin/snake/Release/snake.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/jpeg-turbo/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/include" /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\snake\Classes\;C:\Users\Qff\Desktop\axmol-dev1\core\audio\;C:\Users\Qff\Desktop\axmol-dev1\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\;C:\Users\Qff\Desktop\axmol-dev1\extensions\;C:\Users\Qff\Desktop\axmol-dev1\core\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\;C:\Users\Qff\Desktop\axmol-dev1\core\base\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include\;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio\;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui\;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/prebuilt/windows/x64/zlib1.dll C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libcrypto-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel/libcrypto-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libssl-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel/libssl-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/prebuilt/windows/x64/libcurl.dll C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/snake/build/bin/$(Configuration)/OpenAL32.dll C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\axmol.lib;lib\MinSizeRel\cocostudio.lib;lib\MinSizeRel\ImGui.lib;lib\MinSizeRel\fairygui.lib;lib\MinSizeRel\DragonBones.lib;lib\MinSizeRel\spine.lib;lib\MinSizeRel\physics-nodes.lib;lib\MinSizeRel\particle3d.lib;lib\MinSizeRel\assets-manager.lib;lib\MinSizeRel\GUI.lib;lib\MinSizeRel\axmol.lib;lib\MinSizeRel\thirdparty.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\MinSizeRel\box2d.lib;lib\MinSizeRel\chipmunk.lib;lib\MinSizeRel\freetype.lib;lib\MinSizeRel\png.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\MinSizeRel\recast.lib;lib\MinSizeRel\bullet.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\prebuilt\windows\x64\jpeg-static.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libcrypto.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libssl.lib;lib\MinSizeRel\webp.lib;lib\MinSizeRel\pugixml.lib;lib\MinSizeRel\xxhash.lib;lib\MinSizeRel\lz4.lib;lib\MinSizeRel\clipper2.lib;lib\MinSizeRel\ConvertUTF.lib;lib\MinSizeRel\poly2tri.lib;lib\MinSizeRel\astc.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\prebuilt\windows\x64\libcurl_imp.lib;lib\MinSizeRel\OpenAL32.lib;lib\MinSizeRel\ogg.lib;lib\MinSizeRel\glad.lib;lib\MinSizeRel\glfw.lib;lib\MinSizeRel\unzip.lib;lib\MinSizeRel\llhttp.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Qff/Desktop/snake/build/MinSizeRel/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Qff/Desktop/snake/build/bin/snake/MinSizeRel/snake.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/jpeg-turbo/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/include" /external:I "C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/include" /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\Qff\Desktop\snake\Classes\;C:\Users\Qff\Desktop\axmol-dev1\core\audio\;C:\Users\Qff\Desktop\axmol-dev1\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\;C:\Users\Qff\Desktop\axmol-dev1\extensions\;C:\Users\Qff\Desktop\axmol-dev1\core\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\;C:\Users\Qff\Desktop\axmol-dev1\core\base\;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include\;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio\;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include\;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui\;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include\;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_STATIC;_AX_HAVE_WEBVIEW2;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;FMT_HEADER_ONLY=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=42;ASTCENC_AVX=2;ASTCENC_POPCNT=1;ASTCENC_F16C=1;LLHTTP_STRICT_MODE=0;AX_STATIC=1;AX_BUILD_WITH_SPINE=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Qff\Desktop\snake\Classes;C:\Users\Qff\Desktop\axmol-dev1\core\audio;C:\Users\Qff\Desktop\axmol-dev1;C:\Users\Qff\Desktop\axmol-dev1\thirdparty;C:\Users\Qff\Desktop\axmol-dev1\extensions;C:\Users\Qff\Desktop\axmol-dev1\core;C:\Users\Qff\Desktop\axmol-dev1\core\platform;C:\Users\Qff\Desktop\axmol-dev1\core\base;C:\Users\Qff\Desktop\axmol-dev1\core\platform\win32;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\robin-map\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include\GLFW;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\fmt\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\png;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\box2d\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\chipmunk\include;C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\recast\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\bullet\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\webp\src\webp;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\pugixml;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\xxhash\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\lz4\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\clipper2\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ConvertUTF\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\poly2tri\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\astc\..;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openal\include\AL;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\ogg\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glad\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\glfw\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\unzip\.;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\llhttp\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\cocostudio;C:\Users\Qff\Desktop\axmol-dev1\extensions\spine\runtime\include;C:\Users\Qff\Desktop\axmol-dev1\extensions\fairygui;C:\Users\Qff\Desktop\axmol-dev1\extensions\GUI;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\include;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/zlib/prebuilt/windows/x64/zlib1.dll C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libcrypto-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo/libcrypto-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/openssl/prebuilt/windows/x64/libssl-3-x64.dll C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo/libssl-3-x64.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/axmol-dev1/thirdparty/curl/prebuilt/windows/x64/libcurl.dll C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CMake\bin\cmake.exe -E copy_if_different C:/Users/Qff/Desktop/snake/build/bin/$(Configuration)/OpenAL32.dll C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\axmol.lib;lib\RelWithDebInfo\cocostudio.lib;lib\RelWithDebInfo\ImGui.lib;lib\RelWithDebInfo\fairygui.lib;lib\RelWithDebInfo\DragonBones.lib;lib\RelWithDebInfo\spine.lib;lib\RelWithDebInfo\physics-nodes.lib;lib\RelWithDebInfo\particle3d.lib;lib\RelWithDebInfo\assets-manager.lib;lib\RelWithDebInfo\GUI.lib;lib\RelWithDebInfo\axmol.lib;lib\RelWithDebInfo\thirdparty.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\RelWithDebInfo\box2d.lib;lib\RelWithDebInfo\chipmunk.lib;lib\RelWithDebInfo\freetype.lib;lib\RelWithDebInfo\png.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\zlib\prebuilt\windows\x64\zlib.lib;lib\RelWithDebInfo\recast.lib;lib\RelWithDebInfo\bullet.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\jpeg-turbo\prebuilt\windows\x64\jpeg-static.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libcrypto.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\openssl\prebuilt\windows\x64\libssl.lib;lib\RelWithDebInfo\webp.lib;lib\RelWithDebInfo\pugixml.lib;lib\RelWithDebInfo\xxhash.lib;lib\RelWithDebInfo\lz4.lib;lib\RelWithDebInfo\clipper2.lib;lib\RelWithDebInfo\ConvertUTF.lib;lib\RelWithDebInfo\poly2tri.lib;lib\RelWithDebInfo\astc.lib;C:\Users\Qff\Desktop\axmol-dev1\thirdparty\curl\prebuilt\windows\x64\libcurl_imp.lib;lib\RelWithDebInfo\OpenAL32.lib;lib\RelWithDebInfo\ogg.lib;lib\RelWithDebInfo\glad.lib;lib\RelWithDebInfo\glfw.lib;lib\RelWithDebInfo\unzip.lib;lib\RelWithDebInfo\llhttp.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Qff/Desktop/snake/build/RelWithDebInfo/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Qff/Desktop/snake/build/bin/snake/RelWithDebInfo/snake.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qff\Desktop\snake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Qff/Desktop/snake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildHelpers.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildSet.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDefine.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDepend.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASM_NASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\Users\Qff\Desktop\snake\run.bat.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMCompiler.cmake.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeASM_NASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASM_NASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeTestASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-ASM.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\snake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Qff/Desktop/snake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildHelpers.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildSet.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDefine.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDepend.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASM_NASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\Users\Qff\Desktop\snake\run.bat.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMCompiler.cmake.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeASM_NASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASM_NASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeTestASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-ASM.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\snake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Qff/Desktop/snake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildHelpers.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildSet.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDefine.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDepend.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASM_NASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\Users\Qff\Desktop\snake\run.bat.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMCompiler.cmake.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeASM_NASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASM_NASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeTestASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-ASM.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\snake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Qff/Desktop/snake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildHelpers.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXBuildSet.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDefine.cmake;C:\Users\Qff\Desktop\axmol-dev1\cmake\Modules\AXConfigDepend.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeASM_NASMCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Qff\Desktop\snake\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\Users\Qff\Desktop\snake\run.bat.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMCompiler.cmake.in;D:\CMake\share\cmake-3.25\Modules\CMakeASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeASM_NASMInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineASM_NASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.25\Modules\CMakeTestASMCompiler.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-ASM.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\snake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\GameScreen.h" />
+    <ClInclude Include="..\Classes\StartScreen.h" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Classes\AppDelegate.h" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Classes\HelloWorldScene.h" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\proj.win32\main.h" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\GameScreen.cpp" />
+    <ClCompile Include="..\Classes\StartScreen.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\snake\Classes\AppDelegate.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\snake\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="C:\Users\Qff\Desktop\snake\proj.win32\main.cpp" />
+    <ResourceCompile Include="C:\Users\Qff\Desktop\snake\proj.win32\game.rc" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\CloseNormal.png" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\CloseSelected.png" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\HelloWorld.png" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\fonts\arial.ttf" />
+    <ClInclude Include="C:\Users\Qff\Desktop\snake\Resources\res\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\ZERO_CHECK.vcxproj">
+      <Project>{D9DDD8A3-C9A6-3783-BE83-5570208ACD8C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{A7C082DC-8D75-3E9C-A507-455C6ED56EC8}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\DragonBones\DragonBones.vcxproj">
+      <Project>{B53D45E6-A309-35F0-AB51-E6DDC030F32E}</Project>
+      <Name>DragonBones</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{DF17E2AD-AB1E-30BE-A90E-656AD308EE0B}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\ImGui\ImGui.vcxproj">
+      <Project>{8873332F-054C-36B6-9F73-B6E1F77A02DF}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\openal\OpenAL.vcxproj">
+      <Project>{D5633B76-622F-3983-B369-AA5908206EBD}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\SYNC_RESOURCE-snake.vcxproj">
+      <Project>{6655D043-0C1D-3D1D-AA9D-8503F713BD71}</Project>
+      <Name>SYNC_RESOURCE-snake</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{94E22E48-D7A6-3314-A5F2-3E56F5B633A5}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\astc.vcxproj">
+      <Project>{BF2B4847-58EC-39C2-BA82-29E6973D9D7D}</Project>
+      <Name>astc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\axmol.vcxproj">
+      <Project>{C187C2E3-F254-385D-AD7B-B972B60C2C5C}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\box2d\box2d.vcxproj">
+      <Project>{670E8EAF-2790-3642-8A63-7593484CA1E5}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\bullet\bullet.vcxproj">
+      <Project>{E499A664-EB9E-3652-8690-54D954EA387C}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{DBCA94AF-FD74-3F59-BC93-6DD972317642}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\clipper2\clipper2.vcxproj">
+      <Project>{877E7217-5BFC-3DB7-B675-3F7C8B9BE30F}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{D6F78014-908D-3463-AD46-890C42293F09}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\fairygui\fairygui.vcxproj">
+      <Project>{0BA2D5C6-534F-3338-B94D-D46D59EE8285}</Project>
+      <Name>fairygui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\freetype.vcxproj">
+      <Project>{F246599A-2C25-355F-832E-C56042B5CB65}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\glad\glad.vcxproj">
+      <Project>{C62D9E97-5DCB-3DAF-AB19-BFECBB0E0F53}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{33175F89-E9BF-376B-A9AE-DA640905FEB2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\llhttp\llhttp.vcxproj">
+      <Project>{89D73196-3BB0-3935-9D79-26C4428B8A9C}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\lz4\lz4.vcxproj">
+      <Project>{DF8610F1-C40C-318D-81A9-03F42FC5EE0E}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\ogg\ogg.vcxproj">
+      <Project>{D01B1DF6-D39E-3754-A7D5-2EF69E94F9E2}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{52B75ED0-F30C-3AEC-9120-D6CBD31D8516}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\physics-nodes\physics-nodes.vcxproj">
+      <Project>{E73C0F7D-ACE0-39E1-AE1B-ACAB17BB0020}</Project>
+      <Name>physics-nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\png\png.vcxproj">
+      <Project>{B8E54D9E-A475-3B4B-981E-FDAA95A10E8D}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{ED3FE175-B9DA-3866-A8F1-90E5199D5EF5}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\pugixml\pugixml.vcxproj">
+      <Project>{47D8C8C6-FD04-3F4B-87DC-9DFE9A247A67}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\recast\recast.vcxproj">
+      <Project>{DD64968D-6EDB-3037-85AD-8C0C03E6FFAE}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\spine\spine.vcxproj">
+      <Project>{BDA10EE3-7C0B-35EE-A88F-7194B16A249F}</Project>
+      <Name>spine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\thirdparty.vcxproj">
+      <Project>{86291C32-15FB-3ECC-BBB4-7EB6B595A971}</Project>
+      <Name>thirdparty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\unzip\unzip.vcxproj">
+      <Project>{B6546B6D-E869-3B4C-B7BB-B019BD8A0685}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\webp\webp.vcxproj">
+      <Project>{E8574E74-8018-3459-8C17-655634EED663}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\xxhash\xxhash.vcxproj">
+      <Project>{E6D32620-F5D0-3E8D-9A86-48A822F7C348}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\back_ground.jpg" />
+    <Image Include="..\Resources\body.png" />
+    <Image Include="..\Resources\head.png" />
+    <Image Include="..\Resources\pea.png" />
+    <Image Include="..\Resources\snake.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets') And ('$(Configuration)'=='Debug' Or '$(Configuration)'=='Release' Or '$(Configuration)'=='MinSizeRel' Or '$(Configuration)'=='RelWithDebInfo')" />
+    <Import Project="D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

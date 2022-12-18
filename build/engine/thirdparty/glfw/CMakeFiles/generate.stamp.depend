@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/Qff/Desktop/axmol-dev1/thirdparty/glfw/CMake/glfw3Config.cmake.in
+C:/Users/Qff/Desktop/axmol-dev1/thirdparty/glfw/CMakeLists.txt
+D:/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+D:/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+D:/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+D:/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in

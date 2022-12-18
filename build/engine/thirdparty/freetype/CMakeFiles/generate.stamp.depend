@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Users/Qff/Desktop/axmol-dev1/thirdparty/freetype/CMakeLists.txt
+D:/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+D:/CMake/share/cmake-3.25/Modules/CPack.cmake
+D:/CMake/share/cmake-3.25/Modules/CPackComponent.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPNG.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.25/Modules/FindPkgConfig.cmake
+D:/CMake/share/cmake-3.25/Modules/FindZLIB.cmake
+D:/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+D:/CMake/share/cmake-3.25/Templates/CPackConfig.cmake.in
+D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/Qff/Desktop/axmol-dev1/thirdparty/astc/CMakeLists.txt
+C:/Users/Qff/Desktop/axmol-dev1/thirdparty/cmake/AXConfigThirdparty.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake
+D:/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake
+D:/CMake/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7101F70E-38D9-3619-8220-E9FAC2D80F44}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Qff\Desktop\axmol-dev1\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\axmol-dev1\core\2d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\audio\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\base\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\math\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\network\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\platform\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\ui\CMakeLists.txt;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\axmol-dev1\core\2d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\audio\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\base\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\math\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\network\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\platform\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\ui\CMakeLists.txt;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\axmol-dev1\core\2d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\audio\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\base\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\math\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\network\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\platform\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\ui\CMakeLists.txt;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Qff/Desktop/axmol-dev1/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/Qff/Desktop/snake -BC:/Users/Qff/Desktop/snake/build --check-stamp-file C:/Users/Qff/Desktop/snake/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\axmol-dev1\core\2d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\audio\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\base\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\math\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\navmesh\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\network\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\physics3d\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\platform\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\renderer\CMakeLists.txt;C:\Users\Qff\Desktop\axmol-dev1\core\ui\CMakeLists.txt;D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Qff\Desktop\snake\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\ZERO_CHECK.vcxproj">
+      <Project>{D9DDD8A3-C9A6-3783-BE83-5570208ACD8C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{A7C082DC-8D75-3E9C-A507-455C6ED56EC8}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\DragonBones\DragonBones.vcxproj">
+      <Project>{B53D45E6-A309-35F0-AB51-E6DDC030F32E}</Project>
+      <Name>DragonBones</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{DF17E2AD-AB1E-30BE-A90E-656AD308EE0B}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\ImGui\ImGui.vcxproj">
+      <Project>{8873332F-054C-36B6-9F73-B6E1F77A02DF}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{94E22E48-D7A6-3314-A5F2-3E56F5B633A5}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\astc\astc.vcxproj">
+      <Project>{BF2B4847-58EC-39C2-BA82-29E6973D9D7D}</Project>
+      <Name>astc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\axmol\core\axmol.vcxproj">
+      <Project>{C187C2E3-F254-385D-AD7B-B972B60C2C5C}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\box2d\box2d.vcxproj">
+      <Project>{670E8EAF-2790-3642-8A63-7593484CA1E5}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\bullet\bullet.vcxproj">
+      <Project>{E499A664-EB9E-3652-8690-54D954EA387C}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{DBCA94AF-FD74-3F59-BC93-6DD972317642}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\clipper2\clipper2.vcxproj">
+      <Project>{877E7217-5BFC-3DB7-B675-3F7C8B9BE30F}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{D6F78014-908D-3463-AD46-890C42293F09}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\fairygui\fairygui.vcxproj">
+      <Project>{0BA2D5C6-534F-3338-B94D-D46D59EE8285}</Project>
+      <Name>fairygui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\freetype\freetype.vcxproj">
+      <Project>{F246599A-2C25-355F-832E-C56042B5CB65}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\glad\glad.vcxproj">
+      <Project>{C62D9E97-5DCB-3DAF-AB19-BFECBB0E0F53}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{33175F89-E9BF-376B-A9AE-DA640905FEB2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\llhttp\llhttp.vcxproj">
+      <Project>{89D73196-3BB0-3935-9D79-26C4428B8A9C}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\lz4\lz4.vcxproj">
+      <Project>{DF8610F1-C40C-318D-81A9-03F42FC5EE0E}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\ogg\ogg.vcxproj">
+      <Project>{D01B1DF6-D39E-3754-A7D5-2EF69E94F9E2}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{52B75ED0-F30C-3AEC-9120-D6CBD31D8516}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\physics-nodes\physics-nodes.vcxproj">
+      <Project>{E73C0F7D-ACE0-39E1-AE1B-ACAB17BB0020}</Project>
+      <Name>physics-nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\png\png.vcxproj">
+      <Project>{B8E54D9E-A475-3B4B-981E-FDAA95A10E8D}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{ED3FE175-B9DA-3866-A8F1-90E5199D5EF5}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\pugixml\pugixml.vcxproj">
+      <Project>{47D8C8C6-FD04-3F4B-87DC-9DFE9A247A67}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\recast\recast.vcxproj">
+      <Project>{DD64968D-6EDB-3037-85AD-8C0C03E6FFAE}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\extensions\spine\spine.vcxproj">
+      <Project>{BDA10EE3-7C0B-35EE-A88F-7194B16A249F}</Project>
+      <Name>spine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\thirdparty.vcxproj">
+      <Project>{86291C32-15FB-3ECC-BBB4-7EB6B595A971}</Project>
+      <Name>thirdparty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\unzip\unzip.vcxproj">
+      <Project>{B6546B6D-E869-3B4C-B7BB-B019BD8A0685}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\webp\webp.vcxproj">
+      <Project>{E8574E74-8018-3459-8C17-655634EED663}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Qff\Desktop\snake\build\engine\thirdparty\xxhash\xxhash.vcxproj">
+      <Project>{E6D32620-F5D0-3E8D-9A86-48A822F7C348}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="D:\CMake\share\cmake-3.25\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>
